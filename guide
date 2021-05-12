@@ -1,0 +1,38 @@
+-----------------Instalação do Docker-------------------
+
+- 1 sudo apt update
+- 2 sudo apt install docker.io
+- 3 docker --version
+
+-----------------Instalação do curl-------------------
+
+- 1 sudo apt update
+- 2 sudo apt install curl
+- 3 curl --version
+
+-----------------Documentação Docker Compose-------------------
+
+	https://docs.docker.com/compose/install/
+    
+-----------------Releases Docker Compose-------------------
+
+	https://github.com/docker/compose/releases
+	
+-----------------Instalação do Docker Compose-------------------
+
+- 1 sudo apt update
+- 2 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+- 3 sudo chmod +x /usr/local/bin/docker-compose
+- 4 docker-compose --version
+
+-----------------Instalação do Magento 2 Utilizando Docker-------------------
+
+- 1 sudo docker-compose up -d
+- 2 docker ps
+- 3 docker exec -it (id do container) bash
+- 4 sh init.sh
+- 5 sh install.sh // dps da instalação
+- 6 service apache2 restart
+
+
+
